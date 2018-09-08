@@ -1,0 +1,163 @@
+body{
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	width: 100%;
+	margin: auto;
+}
+.surfer{
+	background-image: url(bgpcom.jpg);
+	background-size: 100%;
+}
+.first{
+	padding: 25px;
+}
+.second{
+	padding-top: 150px;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+.hr-style{
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+nav{
+	display: inline-flex;
+}
+.dropbtn{
+	border: none;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 15px;
+}
+.dropbtn:hover{
+	cursor: pointer;
+	color: #6AAEBF;
+}
+nav a{
+	color: #ffffff;
+}
+nav a:visited{
+	color: #ffffff;
+}
+nav a:hover{
+	color: #6AAEBF;
+}
+.dropdown{
+	overflow: hidden;
+	float: left;
+}
+.dropdown-cont{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.dropdown a{
+	background-color: black;
+	color: white;
+	padding: 8px 50px 8px 8px;
+	transition: all .3s ease-in-out;
+	display: block;
+}
+.dropdown a:hover{
+	background-color: #6AAEBF;
+	color: white;
+}
+.dropdown:hover .dropdown-cont{
+	display: block;
+}
+.secondlast{
+	background-color: #252525;
+	color: #CBCBC6;
+	padding: 5%;
+	display: inline-flex;
+}
+.slspan{
+	color: #fff7f8;
+	font-family: Times New Roman;
+	font-size: 18px;
+}
+.sllink1{
+	color: #CBCBC6;
+}
+.sllink2{
+	color: #6AAEBF;
+}
+a{
+	text-decoration: none;
+}
+footer{
+	background-color: #141414;
+	color: #C0CBCB;
+	padding-left: 14%;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+.footerlink{
+	color: #C0CBCB;
+}
+#footerspan2{
+	margin-left: 32%;
+}
+.sl{
+	width: 18%;
+}
+.first{
+	margin-left: 10%;
+	margin-right: 2%;
+}
+.second{
+	margin-right: 2%;
+}
+.third{
+	margin-right: 2%;
+}
+.fourth{
+	margin-right: 10%;
+}
+hr{
+	border: solid #3b3b3b 1px;
+	color: #3B3B3B;
+}
+#timesnewroman{
+	font-family: timesnewroman;
+	font-size: 18px;
+}
+.thirdlast{
+	background-image: url(bgpcom4.jpg);
+	opacity: 50%;
+	width: 100%;
+	color: #FFFFFF;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: auto;
+	display: inline-flex;
+}
+.fourthlast{
+	display: inline-flex;
+}
+.banner{
+	background-image: url(bgpcom3.jpg);
+	background-blend-mode: overlay;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	color: white;
+}
+.logos{
+	background-color: #141414;
+	border: solid #141414 1px;
+	padding: 10px;
+	border-radius: 18px;
+	margin: 5px;
+}
+i{
+	color: #CBCBCB;
+	font-size: 15px;
+}
+strong{
+	font-family: timesnewroman;
+	font-size: 18px;
+}

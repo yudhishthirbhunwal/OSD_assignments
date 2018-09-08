@@ -1,0 +1,40 @@
+body{
+	background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+.container{
+	background-color: white;
+	border-radius: 10px;
+	padding: 90px 130px 88px 148px;
+	width: 875px;
+	height: 515px;
+	margin: auto;
+	display: block;
+}
+form{
+	display: inline-block;
+	float: right;
+	margin-right: 100px;
+}
+img{
+	display: inline-block;
+	float: left;
+	margin-top: 80px;	
+}
+input{
+	width: 100%;
+    padding: 18px 100px 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #E6E6E6;
+    color: white;
+    border-radius: 30px;
+}
+textarea{
+	box-sizing: border-box;
+	border: none;
+	background-color: #E6E6E6;
+	color: white;
+	padding: 20px 100px 80px 25px;
+	border-radius: 30px;
+}
