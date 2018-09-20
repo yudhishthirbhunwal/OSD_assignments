@@ -7,22 +7,59 @@ body{
 }
 .surfer{
 	background-image: url(bgpcom.jpg);
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.cover{
+	background-color: rgba(0,0,0,.55);
+	color: inherit;
+}
+h3{
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 3rem;
+	font-weight: normal;
+}
+.secondthird{
+	padding: 200px 0;
+	margin: 0 auto;
+	display: block;
+	clear: both;
+	margin-left: 62.600px;
+	margin-right: 62.600px;
 }
 .first{
-	padding: 25px;
+	display: block;
+	color: #fff;
+	border-color: rgba(255,255,255,.3);
+	border-bottom: 1px solid;
+	width: 100%;
+	position: relative;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	margin-left: 0px;
+	text-align: left;
+	word-wrap: break-word;
+}
+header{
+	margin: 30px 0 0 0;
+	max-width: 978px;
+	margin: 0 auto;
 }
 .second{
-	padding-top: 150px;
 	margin: auto;
 	text-align: center;
 	color: white;
+	float: left;
 }
-.hr-style{
-	border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+span{
+	margin: 30px 0 0 0;
+	font-size: 24px;
+	color: white;
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+.third{
+	text-align: center;
+	padding-bottom: 200px;
 }
 nav{
 	display: inline-flex;
@@ -45,6 +82,7 @@ nav a:visited{
 }
 nav a:hover{
 	color: #6AAEBF;
+	transition-duration: 0.3s;
 }
 .dropdown{
 	overflow: hidden;
@@ -53,7 +91,6 @@ nav a:hover{
 .dropdown-cont{
 	display: none;
 	position: absolute;
-	z-index: 1;
 }
 .dropdown a{
 	background-color: black;
@@ -68,6 +105,10 @@ nav a:hover{
 }
 .dropdown:hover .dropdown-cont{
 	display: block;
+}
+.lastdrop{
+	position: relative;
+	float: right;
 }
 .secondlast{
 	background-color: #252525;
@@ -160,4 +201,13 @@ i{
 strong{
 	font-family: timesnewroman;
 	font-size: 18px;
+}
+.fifth{
+	background-color: #527D87;
+	background-blend-mode: soft-light;
+	float: right;
+	color: white;
+}
+.imgdiv{
+	background-image: url(bgpcom2.jpg);
 }
